@@ -1,0 +1,305 @@
+.title {
+  color: #02ccba;
+}
+*{
+  box-sizing: border-box;
+}
+#gHeader{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:999;
+}
+
+#container{
+  margin:0 auto;
+  padding-top:50px;
+  width:100%;
+  text-align:center;
+}
+
+body{
+  background-color: #000;
+}
+
+.loading_bg{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  left:0;
+  z-index: 1000;
+  opacity: 1;
+  background: #000;
+  transform: translate(0,0);
+}
+
+.opening img{
+  transition:all .7s ease-out;
+  clip-path:inset(0 100% 0 0);
+}
+
+.opening > div{
+  font-family: 'Libre Baskerville',serif;
+  font-weight: 400;
+  letter-spacing: .3em;
+  position: relative;
+  filter: blur(0);
+  opacity: 1;
+}
+
+.opening{
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1100;
+  width:100%;
+  margin-top: -5vh;
+}
+
+
+#gHeader .hBox{
+  margin:0 auto;
+  padding;3px 24px 5px;
+  box-sizing: border-box;
+  background-color: #000;
+  width:100%;
+}
+
+.flexB {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo_img{
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  width:100px;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: 30px;
+  width:auto;
+}
+
+ul{
+  list-style: none;
+}
+
+.linkList li {
+  float: left;
+}
+
+#gNavi .linklist{
+  margin-top:3px;
+  width: 100%;
+}
+
+.facebook{
+  margin-right:5px;
+  color:white;
+}
+.twitter{
+  margin-right:5px;
+  color: white;
+}
+.instagram{
+  margin-right:5px;
+  color:white;
+}
+.youtube{
+  margin-right:5px;
+  color: white;
+}
+.mainVisual img{
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+.mainVisual .photo{
+  width:100%;
+  position:fixed;
+  top:50px;
+}
+
+.mainVisual .infoBox{
+  margin-top:calc(100vh - 117px);
+  width:100%;
+  position:relative;
+  z-index: 100;
+  text-align: center;
+  background: transparent;
+}
+
+a#scroll.scrolled{
+  opacity:0;
+}
+
+a#scroll{
+  transition:opacity 0.2s ease .1s;
+  font-size: 2.5rem;
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  display:inline-block;
+  margin-bottom: 50px;
+}
+
+#news.news{
+  padding:27px 20px 23px;
+  background: rgba(0,0,0,0.8);
+}
+
+h2{
+  padding:0 0 18px;
+  margin:0;
+}
+
+.content{
+  margin: 0 auto;
+  width:100%;
+
+}
+
+img.pc{
+  height:35px;
+  background: transparent;
+}
+
+.mainVisual .textList{
+  margin:-20px 0 0px;
+  display:flex;
+}
+
+.mainVisual .textList li:not(:last-of-type){
+  margin-right: 40px;
+}
+
+.mainVisual .textList li{
+  margin-top: px;
+  width:220px;
+  word-break: break-all;
+  text-align: left;
+}
+
+.mainVisual .news .textList .title{
+  color: #e30b0c;
+}
+
+.mainVisual .textList Li .title{
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+p{
+  color:white;
+  font-size: 0.8rem;
+}
+
+.mainVisual .news .link a{
+  color:#e30b0c;
+}
+.mainVisual .news .link :hover{
+  color:white;
+}
+
+.mainVisual .link a{
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Archico Black', sans-serif;
+}
+
+.mainVisual .link{
+  text-align: right;
+}
+
+a{
+  text-decoration: none;
+}
+
+.mainVisual .live{
+  padding:27px 20px 23px;
+  background: rgba(194,20,20,0.8)
+}
+.mainVisual .live .textList .title{
+  color: Black;
+}
+.mainVisual .live .link a{
+  color:Black;
+}
+.mainVisual .live .link :hover{
+  color:white;
+}
+
+#main{
+  margin-top: 0;
+  padding: 27px 0;
+  position: relative;
+  background: rgba(0,0,0,0.8);
+  z-index:100;
+
+}
+#main h2{
+  margin-bottom:24px;
+  text-align: center;
+}
+.video .videoList {
+  display: flex;
+}
+.video .videoList li{
+  width:33%;
+  margin-right: 10px;
+}
+#main .video .link a{
+  color:#e30b0c;
+  font-size:1.2rem;
+  font-style: italic;
+  font-family: 'Archivo Black',sans-serif;
+  font-weight: bold;
+}
+#main .video .link{
+  text-align: right;
+  width:100%;
+}
+.video .link{
+  text-align:right;
+}
+#main .video .link :hover{
+  color:white;
+}
+
+#gFooter{
+  position: relative;
+  z-index: 100;
+  background: rgba(0,0,0,0.8);
+}
+
+#gFooter address {
+  padding: 30px 0 10px;
+  color:#fff;
+  font-size: 10px;
+  font-style: normal;
+  text-align: center;
+}
+
+.sp{
+  display:none;
+}
+
+
+/*.fa .menu-icon{
+  color:white;
+  float:right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}*/

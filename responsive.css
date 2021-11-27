@@ -1,0 +1,26 @@
+@media(max-width:670px){
+  .pc{
+    display:none;
+  }
+  .sp{
+    display:block;
+  }
+
+
+  .flexB{
+    justify-content: center;
+  }
+  .flexB img {
+    width:120px;
+    height: auto;
+  }
+  .linkList{
+    display:none;
+  }
+  .snsList{
+    display: none;
+  }
+ .menu-icon{
+    display: block;
+  }
+}
